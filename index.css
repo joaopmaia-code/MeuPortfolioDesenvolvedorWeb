@@ -1,0 +1,48 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#top{
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 19, 59, 0.55); 
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-top{
+    display: flex;
+    margin-left: 50px;
+}
+
+.img-logo{
+    width: 50px;
+    height: 50px;
+    margin: auto 0px auto 0px;
+}
+
+.h1-logo{
+    text-align: center;
+    margin: auto 0px auto 0px;
+}
+
+.ul-navbar{
+    display: flex;
+    gap: 30px;
+    margin-right: 50px;
+}
+
+.ul-navbar li, a{
+    list-style: none;
+    text-decoration: none;
+}
